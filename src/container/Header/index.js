@@ -162,7 +162,7 @@ class ResponsiveDrawer extends React.Component {
                             <Button color="primary" className={classes.button} onClick={() => this.handleOpen('signup')}>
                                 Sign Up
                             </Button>
-                            {
+                            {/* {
                                 this.state.open && <ModalComponent open={this.state.open} onClose={this.handleClose} >
                                     {this.state.formValue === 'login' ?
                                         <Typography variant="h6" id="modal-title">
@@ -174,7 +174,7 @@ class ResponsiveDrawer extends React.Component {
                                     </Typography>
                                     }
                                 </ModalComponent>
-                            }
+                            } */}
                         </Typography>
                     </Toolbar>
                 </AppBar>

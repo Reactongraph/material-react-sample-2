@@ -85,7 +85,7 @@ const Footer = () => {
                         </Grid>
                     </Grid>
                     <Grid item md={3}>
-                        kaun hunn mein kis ki mujeh talaas © 2018 Beverages.
+                    Duis euismod massa ut sem fringilla blandit. Proin vel enim nec ipsum finibus.Duis euismod massa ut sem fringilla blandit.
                     </Grid>
                     <Grid item md={12} className="footer-last">
                         © 2018 Beverages. All Rights Reserved | Design by W3layouts
