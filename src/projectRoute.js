@@ -1,25 +1,16 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import createHistory from 'history/createBrowserHistory'
-import Home from './container/Home';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-// Switch between one screen to another screen
-
-const history = createHistory()
+import Home from "./container/Home";
 
 const ProjectRoutes = (props) => {
-    return (
-        <Router history={history}>
-            <Switch>
-                <Route
-                    exact
-                    path="/"
-                    component={props => <Home {...props} hi="hello" />}
-                />
-
-            </Switch>
-        </Router>
-    )
-}
+  return (
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home {...props} hi="hello" />} />
+      </Routes>
+    </Router>
+  );
+};
 
 export default ProjectRoutes;

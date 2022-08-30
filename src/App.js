@@ -1,9 +1,8 @@
-import React from 'react';
-import Header from './container/Header'
-import Footer from './container/Footer'
-import ProjectRoute from './projectRoute'
-import './App.css';
-
+import React from "react";
+import Header from "./container/Header";
+import Footer from "./container/Footer";
+import ProjectRoute from "./projectRoute";
+import "./App.css";
 
 const App = () => {
   return (
@@ -13,6 +12,6 @@ const App = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
